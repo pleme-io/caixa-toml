@@ -1,0 +1,6692 @@
+{
+  "version": 2,
+  "workspace": {
+    "root": "/Users/drzzln/code/github/pleme-io/caixa-toml",
+    "members": [
+      {
+        "name": "toml_benchmarks",
+        "relative_path": "crates/benchmarks"
+      },
+      {
+        "name": "serde_spanned",
+        "relative_path": "crates/serde_spanned"
+      },
+      {
+        "name": "toml",
+        "relative_path": "crates/toml"
+      },
+      {
+        "name": "toml_datetime",
+        "relative_path": "crates/toml_datetime"
+      },
+      {
+        "name": "toml_parser",
+        "relative_path": "crates/toml_parser"
+      },
+      {
+        "name": "toml_writer",
+        "relative_path": "crates/toml_writer"
+      },
+      {
+        "name": "toml_edit",
+        "relative_path": "crates/toml_edit"
+      },
+      {
+        "name": "serde_toml",
+        "relative_path": "crates/serde_toml"
+      },
+      {
+        "name": "toml_edit_fuzz",
+        "relative_path": "crates/toml_edit_fuzz"
+      }
+    ]
+  },
+  "crates": {
+    "aho-corasick-1.1.4": {
+      "name": "aho-corasick",
+      "version": "1.1.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/aho-corasick/1.1.4/download",
+        "sha256": "ddd31a130427c27518df266943a5308ed92d4b226cc639f5a8f1002816174301",
+        "name_with_ext": "aho-corasick-1.1.4.tar.gz"
+      },
+      "features": [
+        "default",
+        "perf-literal",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "aho_corasick",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "anstream-0.6.21": {
+      "name": "anstream",
+      "version": "0.6.21",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anstream/0.6.21/download",
+        "sha256": "43d5b281e737544384e969a5ccad3f1cdd24b48086a0fc1b2a5262a26b8f4f4a",
+        "name_with_ext": "anstream-0.6.21.tar.gz"
+      },
+      "features": [
+        "auto",
+        "default",
+        "wincon"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "anstream",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_parse",
+          "package_key": "anstyle-parse-0.2.7",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_query",
+          "package_key": "anstyle-query-1.1.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "colorchoice",
+          "package_key": "colorchoice-1.0.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "is_terminal_polyfill",
+          "package_key": "is_terminal_polyfill-1.70.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_parse",
+          "package_key": "anstyle-parse-0.2.7",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_query",
+          "package_key": "anstyle-query-1.1.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "colorchoice",
+          "package_key": "colorchoice-1.0.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "is_terminal_polyfill",
+          "package_key": "is_terminal_polyfill-1.70.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "anstyle-parse": [
+          {
+            "version": "0.2.7",
+            "rename": "anstyle_parse"
+          }
+        ],
+        "anstyle-query": [
+          {
+            "version": "1.1.5",
+            "rename": "anstyle_query"
+          }
+        ]
+      }
+    },
+    "anstream-1.0.0": {
+      "name": "anstream",
+      "version": "1.0.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anstream/1.0.0/download",
+        "sha256": "824a212faf96e9acacdbd09febd34438f8f711fb84e09a8916013cd7815ca28d",
+        "name_with_ext": "anstream-1.0.0.tar.gz"
+      },
+      "features": [
+        "auto",
+        "default",
+        "test",
+        "wincon"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "anstream",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_parse",
+          "package_key": "anstyle-parse-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_query",
+          "package_key": "anstyle-query-1.1.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "colorchoice",
+          "package_key": "colorchoice-1.0.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "is_terminal_polyfill",
+          "package_key": "is_terminal_polyfill-1.70.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_parse",
+          "package_key": "anstyle-parse-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "anstyle_query",
+          "package_key": "anstyle-query-1.1.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "colorchoice",
+          "package_key": "colorchoice-1.0.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "is_terminal_polyfill",
+          "package_key": "is_terminal_polyfill-1.70.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "anstyle-parse": [
+          {
+            "version": "1.0.0",
+            "rename": "anstyle_parse"
+          }
+        ],
+        "anstyle-query": [
+          {
+            "version": "1.1.5",
+            "rename": "anstyle_query"
+          }
+        ]
+      }
+    },
+    "anstyle-1.0.14": {
+      "name": "anstyle",
+      "version": "1.0.14",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anstyle/1.0.14/download",
+        "sha256": "940b3a0ca603d1eade50a4846a2afffd5ef57a9feac2c0e2ec2e14f9ead76000",
+        "name_with_ext": "anstyle-1.0.14.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "anstyle",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "anstyle-parse-0.2.7": {
+      "name": "anstyle-parse",
+      "version": "0.2.7",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download",
+        "sha256": "4e7644824f0aa2c7b9384579234ef10eb7efb6a0deb83f9630a49594dd9c15c2",
+        "name_with_ext": "anstyle-parse-0.2.7.tar.gz"
+      },
+      "features": [
+        "default",
+        "utf8"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "anstyle_parse",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "anstyle-parse-1.0.0": {
+      "name": "anstyle-parse",
+      "version": "1.0.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anstyle-parse/1.0.0/download",
+        "sha256": "52ce7f38b242319f7cabaa6813055467063ecdc9d355bbb4ce0c68908cd8130e",
+        "name_with_ext": "anstyle-parse-1.0.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "utf8"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "anstyle_parse",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "utf8parse",
+          "package_key": "utf8parse-0.2.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "anstyle-query-1.1.5": {
+      "name": "anstyle-query",
+      "version": "1.1.5",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/anstyle-query/1.1.5/download",
+        "sha256": "40c48f72fd53cd289104fc64099abca73db4166ad86ea0b4341abe65af83dadc",
+        "name_with_ext": "anstyle-query-1.1.5.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "anstyle_query",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "arbitrary-1.4.2": {
+      "name": "arbitrary",
+      "version": "1.4.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/arbitrary/1.4.2/download",
+        "sha256": "c3d036a3c4ab069c7b410a2ce876bd74808d2d0888a82667669f8e783a898bf1",
+        "name_with_ext": "arbitrary-1.4.2.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "arbitrary",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "autocfg-1.5.0": {
+      "name": "autocfg",
+      "version": "1.5.0",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/autocfg/1.5.0/download",
+        "sha256": "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8",
+        "name_with_ext": "autocfg-1.5.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "autocfg",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "bit-set-0.8.0": {
+      "name": "bit-set",
+      "version": "0.8.0",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/bit-set/0.8.0/download",
+        "sha256": "08807e080ed7f9d5433fa9b275196cfc35414f66a0c79d864dc51a0d825231a3",
+        "name_with_ext": "bit-set-0.8.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bit_set",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "bit_vec",
+          "package_key": "bit-vec-0.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "bit_vec",
+          "package_key": "bit-vec-0.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "bit-vec": [
+          {
+            "version": "0.8.0",
+            "rename": "bit_vec"
+          }
+        ]
+      }
+    },
+    "bit-vec-0.8.0": {
+      "name": "bit-vec",
+      "version": "0.8.0",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/bit-vec/0.8.0/download",
+        "sha256": "5e764a1d40d510daf35e07be9eb06e75770908c27d411ee6c92109c9840eaaf7",
+        "name_with_ext": "bit-vec-0.8.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bit_vec",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "bitflags-2.11.0": {
+      "name": "bitflags",
+      "version": "2.11.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/bitflags/2.11.0/download",
+        "sha256": "843867be96c8daad0d758b57df9392b6d8d271134fce549de6ce169ff98a92af",
+        "name_with_ext": "bitflags-2.11.0.tar.gz"
+      },
+      "features": [
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bitflags",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "bstr-1.12.1": {
+      "name": "bstr",
+      "version": "1.12.1",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/bstr/1.12.1/download",
+        "sha256": "63044e1ae8e69f3b5a92c736ca6269b8d12fa7efe39bf34ddb06d102cf0e2cab",
+        "name_with_ext": "bstr-1.12.1.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bstr",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "cc-1.2.56": {
+      "name": "cc",
+      "version": "1.2.56",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/cc/1.2.56/download",
+        "sha256": "aebf35691d1bfb0ac386a69bac2fde4dd276fb618cf8bf4f5318fe285e821bb2",
+        "name_with_ext": "cc-1.2.56.tar.gz"
+      },
+      "features": [
+        "parallel"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "cc",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "find_msvc_tools",
+          "package_key": "find-msvc-tools-0.1.9",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "jobserver",
+          "package_key": "jobserver-0.1.34",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(unix)"
+        },
+        {
+          "name": "shlex",
+          "package_key": "shlex-1.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "find_msvc_tools",
+          "package_key": "find-msvc-tools-0.1.9",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "jobserver",
+          "package_key": "jobserver-0.1.34",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(unix)"
+        },
+        {
+          "name": "shlex",
+          "package_key": "shlex-1.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "find-msvc-tools": [
+          {
+            "version": "0.1.9",
+            "rename": "find_msvc_tools"
+          }
+        ]
+      }
+    },
+    "cfg-if-1.0.4": {
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/cfg-if/1.0.4/download",
+        "sha256": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+        "name_with_ext": "cfg-if-1.0.4.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "cfg_if",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "chrono-0.4.44": {
+      "name": "chrono",
+      "version": "0.4.44",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/chrono/0.4.44/download",
+        "sha256": "c673075a2e0e5f4a1dde27ce9dee1ea4558c7ffe648f576438a20ca1d2acc4b0",
+        "name_with_ext": "chrono-0.4.44.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "chrono",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "num_traits",
+          "package_key": "num-traits-0.2.19",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "num_traits",
+          "package_key": "num-traits-0.2.19",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "num-traits": [
+          {
+            "version": "0.2.19",
+            "rename": "num_traits"
+          }
+        ]
+      }
+    },
+    "clap-4.6.0": {
+      "name": "clap",
+      "version": "4.6.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/clap/4.6.0/download",
+        "sha256": "b193af5b67834b676abd72466a96c1024e6a6ad978a1f484bd90b85c94041351",
+        "name_with_ext": "clap-4.6.0.tar.gz"
+      },
+      "features": [
+        "env",
+        "help",
+        "std",
+        "wrap_help"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [
+        {
+          "name": "stdio-fixture",
+          "path": "src/bin/stdio-fixture.rs"
+        }
+      ],
+      "lib_target": {
+        "name": "clap",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "clap_builder",
+          "package_key": "clap_builder-4.6.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "clap_builder",
+          "package_key": "clap_builder-4.6.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "clap_builder-4.6.0": {
+      "name": "clap_builder",
+      "version": "4.6.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/clap_builder/4.6.0/download",
+        "sha256": "714a53001bf66416adb0e2ef5ac857140e7dc3a0c48fb28b2f10762fc4b5069f",
+        "name_with_ext": "clap_builder-4.6.0.tar.gz"
+      },
+      "features": [
+        "env",
+        "help",
+        "std",
+        "wrap_help"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "clap_builder",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "clap_lex",
+          "package_key": "clap_lex-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "terminal_size",
+          "package_key": "terminal_size-0.4.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "clap_lex",
+          "package_key": "clap_lex-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "terminal_size",
+          "package_key": "terminal_size-0.4.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "clap_lex-1.0.0": {
+      "name": "clap_lex",
+      "version": "1.0.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/clap_lex/1.0.0/download",
+        "sha256": "3a822ea5bc7590f9d40f1ba12c0dc3c2760f3482c6984db1573ad11031420831",
+        "name_with_ext": "clap_lex-1.0.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "clap_lex",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "colorchoice-1.0.5": {
+      "name": "colorchoice",
+      "version": "1.0.5",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/colorchoice/1.0.5/download",
+        "sha256": "1d07550c9036bf2ae0c684c4297d503f838287c83c53686d05370d0e139ae570",
+        "name_with_ext": "colorchoice-1.0.5.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "colorchoice",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "condtype-1.3.0": {
+      "name": "condtype",
+      "version": "1.3.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/condtype/1.3.0/download",
+        "sha256": "baf0a07a401f374238ab8e2f11a104d2851bf9ce711ec69804834de8af45c7af",
+        "name_with_ext": "condtype-1.3.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "condtype",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "crossbeam-deque-0.8.6": {
+      "name": "crossbeam-deque",
+      "version": "0.8.6",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/crossbeam-deque/0.8.6/download",
+        "sha256": "9dd111b7b7f7d55b72c0a6ae361660ee5853c9af73f70c3c2ef6858b950e2e51",
+        "name_with_ext": "crossbeam-deque-0.8.6.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "crossbeam_deque",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "crossbeam_epoch",
+          "package_key": "crossbeam-epoch-0.9.18",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "crossbeam_utils",
+          "package_key": "crossbeam-utils-0.8.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "crossbeam_epoch",
+          "package_key": "crossbeam-epoch-0.9.18",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "crossbeam_utils",
+          "package_key": "crossbeam-utils-0.8.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "crossbeam-epoch": [
+          {
+            "version": "0.9.18",
+            "rename": "crossbeam_epoch"
+          }
+        ],
+        "crossbeam-utils": [
+          {
+            "version": "0.8.21",
+            "rename": "crossbeam_utils"
+          }
+        ]
+      }
+    },
+    "crossbeam-epoch-0.9.18": {
+      "name": "crossbeam-epoch",
+      "version": "0.9.18",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/crossbeam-epoch/0.9.18/download",
+        "sha256": "5b82ac4a3c2ca9c3460964f020e1402edd5753411d7737aa39c3714ad1b5420e",
+        "name_with_ext": "crossbeam-epoch-0.9.18.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "crossbeam_epoch",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "crossbeam_utils",
+          "package_key": "crossbeam-utils-0.8.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "crossbeam_utils",
+          "package_key": "crossbeam-utils-0.8.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "crossbeam-utils": [
+          {
+            "version": "0.8.21",
+            "rename": "crossbeam_utils"
+          }
+        ]
+      }
+    },
+    "crossbeam-utils-0.8.21": {
+      "name": "crossbeam-utils",
+      "version": "0.8.21",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/crossbeam-utils/0.8.21/download",
+        "sha256": "d0a5c400df2834b80a4c3327b3aad3a4c4cd4de0629063962b03235697506a28",
+        "name_with_ext": "crossbeam-utils-0.8.21.tar.gz"
+      },
+      "features": [
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "crossbeam_utils",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "divan-0.1.21": {
+      "name": "divan",
+      "version": "0.1.21",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/divan/0.1.21/download",
+        "sha256": "a405457ec78b8fe08b0e32b4a3570ab5dff6dd16eb9e76a5ee0a9d9cbd898933",
+        "name_with_ext": "divan-0.1.21.tar.gz"
+      },
+      "features": [
+        "default",
+        "help",
+        "wrap_help"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "divan",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "cfg_if",
+          "package_key": "cfg-if-1.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "clap",
+          "package_key": "clap-4.6.0",
+          "kind": "normal",
+          "features": [
+            "std",
+            "env"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "condtype",
+          "package_key": "condtype-1.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "divan_macros",
+          "package_key": "divan-macros-0.1.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        },
+        {
+          "name": "regex",
+          "package_key": "regex-lite-0.1.8",
+          "kind": "normal",
+          "features": [
+            "std",
+            "string"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "cfg_if",
+          "package_key": "cfg-if-1.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "clap",
+          "package_key": "clap-4.6.0",
+          "kind": "normal",
+          "features": [
+            "std",
+            "env"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "condtype",
+          "package_key": "condtype-1.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "divan_macros",
+          "package_key": "divan-macros-0.1.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        },
+        {
+          "name": "regex",
+          "package_key": "regex-lite-0.1.8",
+          "kind": "normal",
+          "features": [
+            "std",
+            "string"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "cfg-if": [
+          {
+            "version": "1.0.4",
+            "rename": "cfg_if"
+          }
+        ],
+        "divan-macros": [
+          {
+            "version": "0.1.21",
+            "rename": "divan_macros"
+          }
+        ],
+        "regex-lite": [
+          {
+            "version": "0.1.8",
+            "rename": "regex"
+          }
+        ]
+      }
+    },
+    "divan-macros-0.1.21": {
+      "name": "divan-macros",
+      "version": "0.1.21",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/divan-macros/0.1.21/download",
+        "sha256": "9556bc800956545d6420a640173e5ba7dfa82f38d3ea5a167eb555bc69ac3323",
+        "name_with_ext": "divan-macros-0.1.21.tar.gz"
+      },
+      "features": [],
+      "proc_macro": true,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "divan_macros",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "syn",
+          "package_key": "syn-2.0.117",
+          "kind": "normal",
+          "features": [
+            "full",
+            "clone-impls",
+            "parsing",
+            "printing",
+            "proc-macro"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "syn",
+          "package_key": "syn-2.0.117",
+          "kind": "normal",
+          "features": [
+            "full",
+            "clone-impls",
+            "parsing",
+            "printing",
+            "proc-macro"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ]
+      }
+    },
+    "either-1.15.0": {
+      "name": "either",
+      "version": "1.15.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/either/1.15.0/download",
+        "sha256": "48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719",
+        "name_with_ext": "either-1.15.0.tar.gz"
+      },
+      "features": [
+        "std",
+        "use_std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "either",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "equivalent-1.0.2": {
+      "name": "equivalent",
+      "version": "1.0.2",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/equivalent/1.0.2/download",
+        "sha256": "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f",
+        "name_with_ext": "equivalent-1.0.2.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "equivalent",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "erased-serde-0.4.6": {
+      "name": "erased-serde",
+      "version": "0.4.6",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/erased-serde/0.4.6/download",
+        "sha256": "e004d887f51fcb9fef17317a2f3525c887d8aa3f4f50fed920816a688284a5b7",
+        "name_with_ext": "erased-serde-0.4.6.tar.gz"
+      },
+      "features": [
+        "alloc"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "erased_serde",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "typeid",
+          "package_key": "typeid-1.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "typeid",
+          "package_key": "typeid-1.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "errno-0.3.14": {
+      "name": "errno",
+      "version": "0.3.14",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/errno/0.3.14/download",
+        "sha256": "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb",
+        "name_with_ext": "errno-0.3.14.tar.gz"
+      },
+      "features": [
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "errno",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "fastrand-2.3.0": {
+      "name": "fastrand",
+      "version": "2.3.0",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/fastrand/2.3.0/download",
+        "sha256": "37909eebbb50d72f9059c3b6d82c0463f2ff062c9e95845c43a6c9c0355411be",
+        "name_with_ext": "fastrand-2.3.0.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "fastrand",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "find-msvc-tools-0.1.9": {
+      "name": "find-msvc-tools",
+      "version": "0.1.9",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/find-msvc-tools/0.1.9/download",
+        "sha256": "5baebc0774151f905a1a2cc41989300b1e6fbb29aff0ceffa1064fdd3088d582",
+        "name_with_ext": "find-msvc-tools-0.1.9.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "find_msvc_tools",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "fnv-1.0.7": {
+      "name": "fnv",
+      "version": "1.0.7",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/fnv/1.0.7/download",
+        "sha256": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
+        "name_with_ext": "fnv-1.0.7.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "fnv",
+        "path": "lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "getrandom-0.3.4": {
+      "name": "getrandom",
+      "version": "0.3.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/getrandom/0.3.4/download",
+        "sha256": "899def5c37c4fd7b2664648c28120ecec138e4d395b459e5ca34f9cce2dd77fd",
+        "name_with_ext": "getrandom-0.3.4.tar.gz"
+      },
+      "features": [
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "getrandom",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "cfg_if",
+          "package_key": "cfg-if-1.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(any(target_os = \"linux\", target_os = \"android\"), not(any(all(target_os = \"linux\", target_env = \"\"), getrandom_backend = \"custom\", getrandom_backend = \"linux_raw\", getrandom_backend = \"rdrand\", getrandom_backend = \"rndr\"))))"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "cfg_if",
+          "package_key": "cfg-if-1.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(any(target_os = \"linux\", target_os = \"android\"), not(any(all(target_os = \"linux\", target_env = \"\"), getrandom_backend = \"custom\", getrandom_backend = \"linux_raw\", getrandom_backend = \"rdrand\", getrandom_backend = \"rndr\"))))"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "cfg-if": [
+          {
+            "version": "1.0.4",
+            "rename": "cfg_if"
+          }
+        ]
+      }
+    },
+    "getrandom-0.4.2": {
+      "name": "getrandom",
+      "version": "0.4.2",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/getrandom/0.4.2/download",
+        "sha256": "0de51e6874e94e7bf76d726fc5d13ba782deca734ff60d5bb2fb2607c7406555",
+        "name_with_ext": "getrandom-0.4.2.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "getrandom",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "cfg_if",
+          "package_key": "cfg-if-1.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(any(target_os = \"linux\", target_os = \"android\"), not(any(all(target_os = \"linux\", target_env = \"\"), getrandom_backend = \"custom\", getrandom_backend = \"linux_raw\", getrandom_backend = \"rdrand\", getrandom_backend = \"rndr\"))))"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "cfg_if",
+          "package_key": "cfg-if-1.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(any(target_os = \"linux\", target_os = \"android\"), not(any(all(target_os = \"linux\", target_env = \"\"), getrandom_backend = \"custom\", getrandom_backend = \"linux_raw\", getrandom_backend = \"rdrand\", getrandom_backend = \"rndr\"))))"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "cfg-if": [
+          {
+            "version": "1.0.4",
+            "rename": "cfg_if"
+          }
+        ]
+      }
+    },
+    "globset-0.4.18": {
+      "name": "globset",
+      "version": "0.4.18",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/globset/0.4.18/download",
+        "sha256": "52dfc19153a48bde0cbd630453615c8151bce3a5adfac7a0aebfbf0a1e1f57e3",
+        "name_with_ext": "globset-0.4.18.tar.gz"
+      },
+      "features": [
+        "default",
+        "log"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "globset",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "bstr",
+          "package_key": "bstr-1.12.1",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.29",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_automata",
+          "package_key": "regex-automata-0.4.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "bstr",
+          "package_key": "bstr-1.12.1",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.29",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_automata",
+          "package_key": "regex-automata-0.4.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "aho-corasick": [
+          {
+            "version": "1.1.4",
+            "rename": "aho_corasick"
+          }
+        ],
+        "regex-automata": [
+          {
+            "version": "0.4.14",
+            "rename": "regex_automata"
+          }
+        ],
+        "regex-syntax": [
+          {
+            "version": "0.8.10",
+            "rename": "regex_syntax"
+          }
+        ]
+      }
+    },
+    "hashbrown-0.17.0": {
+      "name": "hashbrown",
+      "version": "0.17.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/hashbrown/0.17.0/download",
+        "sha256": "4f467dd6dccf739c208452f8014c75c18bb8301b050ad1cfb27153803edb0f51",
+        "name_with_ext": "hashbrown-0.17.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "hashbrown",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "ignore-0.4.25": {
+      "name": "ignore",
+      "version": "0.4.25",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/ignore/0.4.25/download",
+        "sha256": "d3d782a365a015e0f5c04902246139249abf769125006fbe7649e2ee88169b4a",
+        "name_with_ext": "ignore-0.4.25.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "ignore",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "crossbeam_deque",
+          "package_key": "crossbeam-deque-0.8.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "globset",
+          "package_key": "globset-0.4.18",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.29",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_automata",
+          "package_key": "regex-automata-0.4.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "same_file",
+          "package_key": "same-file-1.0.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "walkdir",
+          "package_key": "walkdir-2.5.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "crossbeam_deque",
+          "package_key": "crossbeam-deque-0.8.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "globset",
+          "package_key": "globset-0.4.18",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "log",
+          "package_key": "log-0.4.29",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_automata",
+          "package_key": "regex-automata-0.4.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "same_file",
+          "package_key": "same-file-1.0.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "walkdir",
+          "package_key": "walkdir-2.5.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "crossbeam-deque": [
+          {
+            "version": "0.8.6",
+            "rename": "crossbeam_deque"
+          }
+        ],
+        "regex-automata": [
+          {
+            "version": "0.4.14",
+            "rename": "regex_automata"
+          }
+        ],
+        "same-file": [
+          {
+            "version": "1.0.6",
+            "rename": "same_file"
+          }
+        ]
+      }
+    },
+    "include_dir-0.7.4": {
+      "name": "include_dir",
+      "version": "0.7.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/include_dir/0.7.4/download",
+        "sha256": "923d117408f1e49d914f1a379a309cffe4f18c05cf4e3d12e613a15fc81bd0dd",
+        "name_with_ext": "include_dir-0.7.4.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "include_dir",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "include_dir_macros",
+          "package_key": "include_dir_macros-0.7.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "include_dir_macros",
+          "package_key": "include_dir_macros-0.7.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "include_dir_macros-0.7.4": {
+      "name": "include_dir_macros",
+      "version": "0.7.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/include_dir_macros/0.7.4/download",
+        "sha256": "7cab85a7ed0bd5f0e76d93846e0147172bed2e2d3f859bcc33a8d9699cad1a75",
+        "name_with_ext": "include_dir_macros-0.7.4.tar.gz"
+      },
+      "features": [],
+      "proc_macro": true,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "include_dir_macros",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ]
+      }
+    },
+    "indexmap-2.14.0": {
+      "name": "indexmap",
+      "version": "2.14.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/indexmap/2.14.0/download",
+        "sha256": "d466e9454f08e4a911e14806c24e16fba1b4c121d1ea474396f396069cf949d9",
+        "name_with_ext": "indexmap-2.14.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "serde",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "indexmap",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "equivalent",
+          "package_key": "equivalent-1.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "hashbrown",
+          "package_key": "hashbrown-0.17.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "equivalent",
+          "package_key": "equivalent-1.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "hashbrown",
+          "package_key": "hashbrown-0.17.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "is_terminal_polyfill-1.70.2": {
+      "name": "is_terminal_polyfill",
+      "version": "1.70.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download",
+        "sha256": "a6cb138bb79a146c1bd460005623e142ef0181e3d0219cb493e02f7d08a35695",
+        "name_with_ext": "is_terminal_polyfill-1.70.2.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "is_terminal_polyfill",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "itertools-0.14.0": {
+      "name": "itertools",
+      "version": "0.14.0",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/itertools/0.14.0/download",
+        "sha256": "2b192c782037fadd9cfa75548310488aabdbf3d2da73885b31bd0abd03351285",
+        "name_with_ext": "itertools-0.14.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "use_alloc",
+        "use_std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "itertools",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "either",
+          "package_key": "either-1.15.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "either",
+          "package_key": "either-1.15.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "itoa-1.0.18": {
+      "name": "itoa",
+      "version": "1.0.18",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/itoa/1.0.18/download",
+        "sha256": "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682",
+        "name_with_ext": "itoa-1.0.18.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "itoa",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "jobserver-0.1.34": {
+      "name": "jobserver",
+      "version": "0.1.34",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/jobserver/0.1.34/download",
+        "sha256": "9afb3de4395d6b3e67a780b6de64b51c978ecf11cb9a462c66be7d4ca9039d33",
+        "name_with_ext": "jobserver-0.1.34.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "jobserver",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "json-write-0.0.2": {
+      "name": "json-write",
+      "version": "0.0.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/json-write/0.0.2/download",
+        "sha256": "4085027557b9a870495ab8b7b411e14576055491d7220c88b11b7e2ba198b297",
+        "name_with_ext": "json-write-0.0.2.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "json_write",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "lexarg-0.0.2": {
+      "name": "lexarg",
+      "version": "0.0.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/lexarg/0.0.2/download",
+        "sha256": "84373d01a60bb462a2e7caa28796669692d38ba075028a656bd626ac211062d4",
+        "name_with_ext": "lexarg-0.0.2.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "lexarg",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "lexarg_error",
+          "package_key": "lexarg-error-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "lexarg_parser",
+          "package_key": "lexarg-parser-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "lexarg_error",
+          "package_key": "lexarg-error-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "lexarg_parser",
+          "package_key": "lexarg-parser-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "lexarg-error": [
+          {
+            "version": "0.0.2",
+            "rename": "lexarg_error"
+          }
+        ],
+        "lexarg-parser": [
+          {
+            "version": "0.0.2",
+            "rename": "lexarg_parser"
+          }
+        ]
+      }
+    },
+    "lexarg-error-0.0.2": {
+      "name": "lexarg-error",
+      "version": "0.0.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/lexarg-error/0.0.2/download",
+        "sha256": "178daf11ee95fa4bf31ff1af878dda4c637dc08a37aabdd63ae3683481fd13a9",
+        "name_with_ext": "lexarg-error-0.0.2.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "lexarg_error",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "lexarg_parser",
+          "package_key": "lexarg-parser-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "lexarg_parser",
+          "package_key": "lexarg-parser-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "lexarg-parser": [
+          {
+            "version": "0.0.2",
+            "rename": "lexarg_parser"
+          }
+        ]
+      }
+    },
+    "lexarg-parser-0.0.2": {
+      "name": "lexarg-parser",
+      "version": "0.0.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/lexarg-parser/0.0.2/download",
+        "sha256": "67367be9ace12a2d51c03741b5280ff3029a833c49a4ec1193223a1a8cfbc863",
+        "name_with_ext": "lexarg-parser-0.0.2.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "lexarg_parser",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "lexopt-0.3.2": {
+      "name": "lexopt",
+      "version": "0.3.2",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/lexopt/0.3.2/download",
+        "sha256": "803ec87c9cfb29b9d2633f20cba1f488db3fd53f2158b1024cbefb47ba05d413",
+        "name_with_ext": "lexopt-0.3.2.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "lexopt",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "libc-0.2.183": {
+      "name": "libc",
+      "version": "0.2.183",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/libc/0.2.183/download",
+        "sha256": "b5b646652bf6661599e1da8901b3b9522896f01e736bad5f723fe7a3a27f899d",
+        "name_with_ext": "libc-0.2.183.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "libc",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "libfuzzer-sys-0.4.12": {
+      "name": "libfuzzer-sys",
+      "version": "0.4.12",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/libfuzzer-sys/0.4.12/download",
+        "sha256": "f12a681b7dd8ce12bff52488013ba614b869148d54dd79836ab85aafdd53f08d",
+        "name_with_ext": "libfuzzer-sys-0.4.12.tar.gz"
+      },
+      "features": [
+        "default",
+        "link_libfuzzer"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "libfuzzer_sys",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "arbitrary",
+          "package_key": "arbitrary-1.4.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "cc",
+          "package_key": "cc-1.2.56",
+          "kind": "build",
+          "features": [
+            "parallel"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "arbitrary",
+          "package_key": "arbitrary-1.4.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [
+        {
+          "name": "cc",
+          "package_key": "cc-1.2.56",
+          "kind": "build",
+          "features": [
+            "parallel"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "crate_renames": {}
+    },
+    "libtest-json-0.0.2": {
+      "name": "libtest-json",
+      "version": "0.0.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/libtest-json/0.0.2/download",
+        "sha256": "a8f58e30343a6bfe0fb896b0bb92cf482c34ed047c637aac4b561d0b251b638c",
+        "name_with_ext": "libtest-json-0.0.2.tar.gz"
+      },
+      "features": [
+        "default",
+        "json"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "libtest_json",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "json_write",
+          "package_key": "json-write-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "json_write",
+          "package_key": "json-write-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "json-write": [
+          {
+            "version": "0.0.2",
+            "rename": "json_write"
+          }
+        ]
+      }
+    },
+    "libtest-lexarg-0.0.3": {
+      "name": "libtest-lexarg",
+      "version": "0.0.3",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/libtest-lexarg/0.0.3/download",
+        "sha256": "914e11e515e22a1b2a0aac76c0615e6417d470789c2f0433a0598a5b6aae491f",
+        "name_with_ext": "libtest-lexarg-0.0.3.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "libtest_lexarg",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "lexarg",
+          "package_key": "lexarg-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "lexarg_error",
+          "package_key": "lexarg-error-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "lexarg",
+          "package_key": "lexarg-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "lexarg_error",
+          "package_key": "lexarg-error-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "lexarg-error": [
+          {
+            "version": "0.0.2",
+            "rename": "lexarg_error"
+          }
+        ]
+      }
+    },
+    "libtest2-harness-0.0.3": {
+      "name": "libtest2-harness",
+      "version": "0.0.3",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/libtest2-harness/0.0.3/download",
+        "sha256": "1ca907aef7f70aceecb01e88588062946dd0af0727d80a68d9a1e928dacf07c9",
+        "name_with_ext": "libtest2-harness-0.0.3.tar.gz"
+      },
+      "features": [
+        "color",
+        "default",
+        "threads"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "libtest2_harness",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anstream",
+          "package_key": "anstream-0.6.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "lexarg_error",
+          "package_key": "lexarg-error-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "lexarg_parser",
+          "package_key": "lexarg-parser-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest_json",
+          "package_key": "libtest-json-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest_lexarg",
+          "package_key": "libtest-lexarg-0.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anstream",
+          "package_key": "anstream-0.6.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "lexarg_error",
+          "package_key": "lexarg-error-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "lexarg_parser",
+          "package_key": "lexarg-parser-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest_json",
+          "package_key": "libtest-json-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest_lexarg",
+          "package_key": "libtest-lexarg-0.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "lexarg-error": [
+          {
+            "version": "0.0.2",
+            "rename": "lexarg_error"
+          }
+        ],
+        "lexarg-parser": [
+          {
+            "version": "0.0.2",
+            "rename": "lexarg_parser"
+          }
+        ],
+        "libtest-json": [
+          {
+            "version": "0.0.2",
+            "rename": "libtest_json"
+          }
+        ],
+        "libtest-lexarg": [
+          {
+            "version": "0.0.3",
+            "rename": "libtest_lexarg"
+          }
+        ]
+      }
+    },
+    "libtest2-mimic-0.0.4": {
+      "name": "libtest2-mimic",
+      "version": "0.0.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/libtest2-mimic/0.0.4/download",
+        "sha256": "a91f49bdcba4db89919ae87029787d2102f051e5dcf635df29e3bfdf55b2a4ac",
+        "name_with_ext": "libtest2-mimic-0.0.4.tar.gz"
+      },
+      "features": [
+        "color",
+        "default",
+        "threads"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "libtest2_mimic",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "libtest_json",
+          "package_key": "libtest-json-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest2_harness",
+          "package_key": "libtest2-harness-0.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "libtest_json",
+          "package_key": "libtest-json-0.0.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest2_harness",
+          "package_key": "libtest2-harness-0.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "libtest-json": [
+          {
+            "version": "0.0.2",
+            "rename": "libtest_json"
+          }
+        ],
+        "libtest2-harness": [
+          {
+            "version": "0.0.3",
+            "rename": "libtest2_harness"
+          }
+        ]
+      }
+    },
+    "log-0.4.29": {
+      "name": "log",
+      "version": "0.4.29",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/log/0.4.29/download",
+        "sha256": "5e5032e24019045c762d3c0f28f5b6b8bbf38563a65908389bf7978758920897",
+        "name_with_ext": "log-0.4.29.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "log",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "memchr-2.8.0": {
+      "name": "memchr",
+      "version": "2.8.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/memchr/2.8.0/download",
+        "sha256": "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79",
+        "name_with_ext": "memchr-2.8.0.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "memchr",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "normalize-line-endings-0.3.0": {
+      "name": "normalize-line-endings",
+      "version": "0.3.0",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/normalize-line-endings/0.3.0/download",
+        "sha256": "61807f77802ff30975e01f4f071c8ba10c022052f98b3294119f3e615d13e5be",
+        "name_with_ext": "normalize-line-endings-0.3.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "normalize_line_endings",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "num-traits-0.2.19": {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/num-traits/0.2.19/download",
+        "sha256": "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841",
+        "name_with_ext": "num-traits-0.2.19.tar.gz"
+      },
+      "features": [
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "num_traits",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "autocfg",
+          "package_key": "autocfg-1.5.0",
+          "kind": "build",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [],
+      "build_dependencies": [
+        {
+          "name": "autocfg",
+          "package_key": "autocfg-1.5.0",
+          "kind": "build",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "crate_renames": {}
+    },
+    "once_cell-1.21.4": {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/once_cell/1.21.4/download",
+        "sha256": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+        "name_with_ext": "once_cell-1.21.4.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "race",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "once_cell",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "ppv-lite86-0.2.21": {
+      "name": "ppv-lite86",
+      "version": "0.2.21",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download",
+        "sha256": "85eae3c4ed2f50dcfe72643da4befc30deadb458a9b590d720cde2f2b1e97da9",
+        "name_with_ext": "ppv-lite86-0.2.21.tar.gz"
+      },
+      "features": [
+        "simd",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "ppv_lite86",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "zerocopy",
+          "package_key": "zerocopy-0.8.42",
+          "kind": "normal",
+          "features": [
+            "simd"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "zerocopy",
+          "package_key": "zerocopy-0.8.42",
+          "kind": "normal",
+          "features": [
+            "simd"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "proc-macro2-1.0.106": {
+      "name": "proc-macro2",
+      "version": "1.0.106",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/proc-macro2/1.0.106/download",
+        "sha256": "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934",
+        "name_with_ext": "proc-macro2-1.0.106.tar.gz"
+      },
+      "features": [
+        "default",
+        "proc-macro"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "proc_macro2",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "unicode-ident": [
+          {
+            "version": "1.0.24",
+            "rename": "unicode_ident"
+          }
+        ]
+      }
+    },
+    "proptest-1.11.0": {
+      "name": "proptest",
+      "version": "1.11.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/proptest/1.11.0/download",
+        "sha256": "4b45fcc2344c680f5025fe57779faef368840d0bd1f42f216291f0dc4ace4744",
+        "name_with_ext": "proptest-1.11.0.tar.gz"
+      },
+      "features": [
+        "bit-set",
+        "default",
+        "fork",
+        "regex-syntax",
+        "rusty-fork",
+        "std",
+        "tempfile",
+        "timeout"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "proptest",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "bit_set",
+          "package_key": "bit-set-0.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "bit_vec",
+          "package_key": "bit-vec-0.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "bitflags",
+          "package_key": "bitflags-2.11.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "num_traits",
+          "package_key": "num-traits-0.2.19",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand",
+          "package_key": "rand-0.9.2",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand_chacha",
+          "package_key": "rand_chacha-0.9.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand_xorshift",
+          "package_key": "rand_xorshift-0.4.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rusty_fork",
+          "package_key": "rusty-fork-0.3.1",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "tempfile",
+          "package_key": "tempfile-3.27.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "unarray",
+          "package_key": "unarray-0.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "bit_set",
+          "package_key": "bit-set-0.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "bit_vec",
+          "package_key": "bit-vec-0.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "bitflags",
+          "package_key": "bitflags-2.11.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "num_traits",
+          "package_key": "num-traits-0.2.19",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand",
+          "package_key": "rand-0.9.2",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand_chacha",
+          "package_key": "rand_chacha-0.9.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand_xorshift",
+          "package_key": "rand_xorshift-0.4.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rusty_fork",
+          "package_key": "rusty-fork-0.3.1",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "tempfile",
+          "package_key": "tempfile-3.27.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "unarray",
+          "package_key": "unarray-0.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "bit-set": [
+          {
+            "version": "0.8.0",
+            "rename": "bit_set"
+          }
+        ],
+        "bit-vec": [
+          {
+            "version": "0.8.0",
+            "rename": "bit_vec"
+          }
+        ],
+        "num-traits": [
+          {
+            "version": "0.2.19",
+            "rename": "num_traits"
+          }
+        ],
+        "regex-syntax": [
+          {
+            "version": "0.8.10",
+            "rename": "regex_syntax"
+          }
+        ],
+        "rusty-fork": [
+          {
+            "version": "0.3.1",
+            "rename": "rusty_fork"
+          }
+        ]
+      }
+    },
+    "quick-error-1.2.3": {
+      "name": "quick-error",
+      "version": "1.2.3",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/quick-error/1.2.3/download",
+        "sha256": "a1d01941d82fa2ab50be1e79e6714289dd7cde78eba4c074bc5a4374f650dfe0",
+        "name_with_ext": "quick-error-1.2.3.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "quick_error",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "quote-1.0.45": {
+      "name": "quote",
+      "version": "1.0.45",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/quote/1.0.45/download",
+        "sha256": "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924",
+        "name_with_ext": "quote-1.0.45.tar.gz"
+      },
+      "features": [
+        "default",
+        "proc-macro"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "quote",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ]
+      }
+    },
+    "rand-0.9.2": {
+      "name": "rand",
+      "version": "0.9.2",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/rand/0.9.2/download",
+        "sha256": "6db2770f06117d490610c7488547d543617b21bfa07796d7a12f6f1bd53850d1",
+        "name_with_ext": "rand-0.9.2.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "os_rng",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "rand_chacha",
+          "package_key": "rand_chacha-0.9.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "rand_core",
+          "package_key": "rand_core-0.9.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "rand_chacha",
+          "package_key": "rand_chacha-0.9.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "rand_core",
+          "package_key": "rand_core-0.9.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "rand_chacha-0.9.0": {
+      "name": "rand_chacha",
+      "version": "0.9.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/rand_chacha/0.9.0/download",
+        "sha256": "d3022b5f1df60f26e1ffddd6c66e8aa15de382ae63b3a0c1bfc0e4d3e3f325cb",
+        "name_with_ext": "rand_chacha-0.9.0.tar.gz"
+      },
+      "features": [
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand_chacha",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "ppv_lite86",
+          "package_key": "ppv-lite86-0.2.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand_core",
+          "package_key": "rand_core-0.9.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "ppv_lite86",
+          "package_key": "ppv-lite86-0.2.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rand_core",
+          "package_key": "rand_core-0.9.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "ppv-lite86": [
+          {
+            "version": "0.2.21",
+            "rename": "ppv_lite86"
+          }
+        ]
+      }
+    },
+    "rand_core-0.9.5": {
+      "name": "rand_core",
+      "version": "0.9.5",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/rand_core/0.9.5/download",
+        "sha256": "76afc826de14238e6e8c374ddcc1fa19e374fd8dd986b0d2af0d02377261d83c",
+        "name_with_ext": "rand_core-0.9.5.tar.gz"
+      },
+      "features": [
+        "os_rng",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand_core",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "getrandom",
+          "package_key": "getrandom-0.3.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "getrandom",
+          "package_key": "getrandom-0.3.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "rand_xorshift-0.4.0": {
+      "name": "rand_xorshift",
+      "version": "0.4.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/rand_xorshift/0.4.0/download",
+        "sha256": "513962919efc330f829edb2535844d1b912b0fbe2ca165d613e4e8788bb05a5a",
+        "name_with_ext": "rand_xorshift-0.4.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand_xorshift",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "rand_core",
+          "package_key": "rand_core-0.9.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "rand_core",
+          "package_key": "rand_core-0.9.5",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "regex-automata-0.4.14": {
+      "name": "regex-automata",
+      "version": "0.4.14",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/regex-automata/0.4.14/download",
+        "sha256": "6e1dd4122fc1595e8162618945476892eefca7b88c52820e74af6262213cae8f",
+        "name_with_ext": "regex-automata-0.4.14.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "dfa-onepass",
+        "hybrid",
+        "meta",
+        "nfa",
+        "nfa-backtrack",
+        "nfa-pikevm",
+        "nfa-thompson",
+        "perf",
+        "perf-inline",
+        "perf-literal",
+        "perf-literal-multisubstring",
+        "perf-literal-substring",
+        "std",
+        "syntax"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex_automata",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "aho_corasick",
+          "package_key": "aho-corasick-1.1.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "regex_syntax",
+          "package_key": "regex-syntax-0.8.10",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "aho-corasick": [
+          {
+            "version": "1.1.4",
+            "rename": "aho_corasick"
+          }
+        ],
+        "regex-syntax": [
+          {
+            "version": "0.8.10",
+            "rename": "regex_syntax"
+          }
+        ]
+      }
+    },
+    "regex-lite-0.1.8": {
+      "name": "regex-lite",
+      "version": "0.1.8",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/regex-lite/0.1.8/download",
+        "sha256": "8d942b98df5e658f56f20d592c7f868833fe38115e65c33003d8cd224b0155da",
+        "name_with_ext": "regex-lite-0.1.8.tar.gz"
+      },
+      "features": [
+        "std",
+        "string"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex_lite",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "regex-syntax-0.8.10": {
+      "name": "regex-syntax",
+      "version": "0.8.10",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/regex-syntax/0.8.10/download",
+        "sha256": "dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a",
+        "name_with_ext": "regex-syntax-0.8.10.tar.gz"
+      },
+      "features": [
+        "default",
+        "std",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex_syntax",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "rustix-1.1.4": {
+      "name": "rustix",
+      "version": "1.1.4",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/rustix/1.1.4/download",
+        "sha256": "b6fe4565b9518b83ef4f91bb47ce29620ca828bd32cb7e408f0062e9930ba190",
+        "name_with_ext": "rustix-1.1.4.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "fs",
+        "std",
+        "termios"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "rustix",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "bitflags",
+          "package_key": "bitflags-2.11.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc_errno",
+          "package_key": "errno-0.3.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(all(not(rustix_use_libc), not(miri), target_os = \"linux\", any(target_endian = \"little\", any(target_arch = \"s390x\", target_arch = \"powerpc\")), any(target_arch = \"arm\", all(target_arch = \"aarch64\", target_pointer_width = \"64\"), target_arch = \"riscv64\", all(rustix_use_experimental_asm, target_arch = \"powerpc\"), all(rustix_use_experimental_asm, target_arch = \"powerpc64\"), all(rustix_use_experimental_asm, target_arch = \"s390x\"), all(rustix_use_experimental_asm, target_arch = \"mips\"), all(rustix_use_experimental_asm, target_arch = \"mips32r6\"), all(rustix_use_experimental_asm, target_arch = \"mips64\"), all(rustix_use_experimental_asm, target_arch = \"mips64r6\"), target_arch = \"x86\", all(target_arch = \"x86_64\", target_pointer_width = \"64\"))))"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(all(not(rustix_use_libc), not(miri), target_os = \"linux\", any(target_endian = \"little\", any(target_arch = \"s390x\", target_arch = \"powerpc\")), any(target_arch = \"arm\", all(target_arch = \"aarch64\", target_pointer_width = \"64\"), target_arch = \"riscv64\", all(rustix_use_experimental_asm, target_arch = \"powerpc\"), all(rustix_use_experimental_asm, target_arch = \"powerpc64\"), all(rustix_use_experimental_asm, target_arch = \"s390x\"), all(rustix_use_experimental_asm, target_arch = \"mips\"), all(rustix_use_experimental_asm, target_arch = \"mips32r6\"), all(rustix_use_experimental_asm, target_arch = \"mips64\"), all(rustix_use_experimental_asm, target_arch = \"mips64r6\"), target_arch = \"x86\", all(target_arch = \"x86_64\", target_pointer_width = \"64\"))))"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "bitflags",
+          "package_key": "bitflags-2.11.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libc_errno",
+          "package_key": "errno-0.3.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(all(not(rustix_use_libc), not(miri), target_os = \"linux\", any(target_endian = \"little\", any(target_arch = \"s390x\", target_arch = \"powerpc\")), any(target_arch = \"arm\", all(target_arch = \"aarch64\", target_pointer_width = \"64\"), target_arch = \"riscv64\", all(rustix_use_experimental_asm, target_arch = \"powerpc\"), all(rustix_use_experimental_asm, target_arch = \"powerpc64\"), all(rustix_use_experimental_asm, target_arch = \"s390x\"), all(rustix_use_experimental_asm, target_arch = \"mips\"), all(rustix_use_experimental_asm, target_arch = \"mips32r6\"), all(rustix_use_experimental_asm, target_arch = \"mips64\"), all(rustix_use_experimental_asm, target_arch = \"mips64r6\"), target_arch = \"x86\", all(target_arch = \"x86_64\", target_pointer_width = \"64\"))))"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(all(not(rustix_use_libc), not(miri), target_os = \"linux\", any(target_endian = \"little\", any(target_arch = \"s390x\", target_arch = \"powerpc\")), any(target_arch = \"arm\", all(target_arch = \"aarch64\", target_pointer_width = \"64\"), target_arch = \"riscv64\", all(rustix_use_experimental_asm, target_arch = \"powerpc\"), all(rustix_use_experimental_asm, target_arch = \"powerpc64\"), all(rustix_use_experimental_asm, target_arch = \"s390x\"), all(rustix_use_experimental_asm, target_arch = \"mips\"), all(rustix_use_experimental_asm, target_arch = \"mips32r6\"), all(rustix_use_experimental_asm, target_arch = \"mips64\"), all(rustix_use_experimental_asm, target_arch = \"mips64r6\"), target_arch = \"x86\", all(target_arch = \"x86_64\", target_pointer_width = \"64\"))))"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "errno": [
+          {
+            "version": "0.3.14",
+            "rename": "libc_errno"
+          }
+        ]
+      }
+    },
+    "rusty-fork-0.3.1": {
+      "name": "rusty-fork",
+      "version": "0.3.1",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/rusty-fork/0.3.1/download",
+        "sha256": "cc6bf79ff24e648f6da1f8d1f011e9cac26491b619e6b9280f2b47f1774e6ee2",
+        "name_with_ext": "rusty-fork-0.3.1.tar.gz"
+      },
+      "features": [
+        "timeout",
+        "wait-timeout"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rusty_fork",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "fnv",
+          "package_key": "fnv-1.0.7",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quick_error",
+          "package_key": "quick-error-1.2.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "tempfile",
+          "package_key": "tempfile-3.27.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "wait_timeout",
+          "package_key": "wait-timeout-0.2.1",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "fnv",
+          "package_key": "fnv-1.0.7",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quick_error",
+          "package_key": "quick-error-1.2.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "tempfile",
+          "package_key": "tempfile-3.27.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "wait_timeout",
+          "package_key": "wait-timeout-0.2.1",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "quick-error": [
+          {
+            "version": "1.2.3",
+            "rename": "quick_error"
+          }
+        ],
+        "wait-timeout": [
+          {
+            "version": "0.2.1",
+            "rename": "wait_timeout"
+          }
+        ]
+      }
+    },
+    "ryu-1.0.23": {
+      "name": "ryu",
+      "version": "1.0.23",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/ryu/1.0.23/download",
+        "sha256": "9774ba4a74de5f7b1c1451ed6cd5285a32eddb5cccb8cc655a4e50009e06477f",
+        "name_with_ext": "ryu-1.0.23.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "ryu",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "same-file-1.0.6": {
+      "name": "same-file",
+      "version": "1.0.6",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/same-file/1.0.6/download",
+        "sha256": "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502",
+        "name_with_ext": "same-file-1.0.6.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "same_file",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "serde-1.0.228": {
+      "name": "serde",
+      "version": "1.0.228",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/serde/1.0.228/download",
+        "sha256": "9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
+        "name_with_ext": "serde-1.0.228.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "derive",
+        "serde_derive",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "serde",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [
+            "result"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_derive",
+          "package_key": "serde_derive-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [
+            "result"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_derive",
+          "package_key": "serde_derive-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "serde-untagged-0.1.9": {
+      "name": "serde-untagged",
+      "version": "0.1.9",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/serde-untagged/0.1.9/download",
+        "sha256": "f9faf48a4a2d2693be24c6289dbe26552776eb7737074e6722891fadbe6c5058",
+        "name_with_ext": "serde-untagged-0.1.9.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "serde_untagged",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "erased_serde",
+          "package_key": "erased-serde-0.4.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "typeid",
+          "package_key": "typeid-1.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "erased_serde",
+          "package_key": "erased-serde-0.4.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "typeid",
+          "package_key": "typeid-1.0.3",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "erased-serde": [
+          {
+            "version": "0.4.6",
+            "rename": "erased_serde"
+          }
+        ]
+      }
+    },
+    "serde_core-1.0.228": {
+      "name": "serde_core",
+      "version": "1.0.228",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/serde_core/1.0.228/download",
+        "sha256": "41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
+        "name_with_ext": "serde_core-1.0.228.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "result",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "serde_core",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "serde_derive-1.0.228": {
+      "name": "serde_derive",
+      "version": "1.0.228",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/serde_derive/1.0.228/download",
+        "sha256": "d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
+        "name_with_ext": "serde_derive-1.0.228.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": true,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "serde_derive",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [
+            "proc-macro"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "syn",
+          "package_key": "syn-2.0.117",
+          "kind": "normal",
+          "features": [
+            "clone-impls",
+            "derive",
+            "parsing",
+            "printing",
+            "proc-macro"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [
+            "proc-macro"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "syn",
+          "package_key": "syn-2.0.117",
+          "kind": "normal",
+          "features": [
+            "clone-impls",
+            "derive",
+            "parsing",
+            "printing",
+            "proc-macro"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ]
+      }
+    },
+    "serde_json-1.0.149": {
+      "name": "serde_json",
+      "version": "1.0.149",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/serde_json/1.0.149/download",
+        "sha256": "83fc039473c5595ace860d8c4fafa220ff474b3fc6bfdb4293327f1a37e94d86",
+        "name_with_ext": "serde_json-1.0.149.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "serde_json",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "itoa",
+          "package_key": "itoa-1.0.18",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "zmij",
+          "package_key": "zmij-1.0.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "itoa",
+          "package_key": "itoa-1.0.18",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "zmij",
+          "package_key": "zmij-1.0.21",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "serde_spanned-1.1.1": {
+      "name": "serde_spanned",
+      "version": "1.1.1",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/serde_spanned"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "serde",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "serde_spanned",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "serde_toml-0.0.1": {
+      "name": "serde_toml",
+      "version": "0.0.1",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/serde_toml"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "serde_toml",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "shlex-1.3.0": {
+      "name": "shlex",
+      "version": "1.3.0",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/shlex/1.3.0/download",
+        "sha256": "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64",
+        "name_with_ext": "shlex-1.3.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "shlex",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "similar-2.7.0": {
+      "name": "similar",
+      "version": "2.7.0",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/similar/2.7.0/download",
+        "sha256": "bbbb5d9659141646ae647b42fe094daf6c6192d1620870b449d9557f748b2daa",
+        "name_with_ext": "similar-2.7.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "inline",
+        "text"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "similar",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "snapbox-1.2.1": {
+      "name": "snapbox",
+      "version": "1.2.1",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/snapbox/1.2.1/download",
+        "sha256": "f92ac911648d788a6435401d9b4803959039d4de9919fdabdb415a8bebd027be",
+        "name_with_ext": "snapbox-1.2.1.tar.gz"
+      },
+      "features": [
+        "color",
+        "color-auto",
+        "default",
+        "diff"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [
+        {
+          "name": "snap-fixture",
+          "path": "src/bin/snap-fixture.rs"
+        }
+      ],
+      "lib_target": {
+        "name": "snapbox",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anstream",
+          "package_key": "anstream-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "normalize_line_endings",
+          "package_key": "normalize-line-endings-0.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "similar",
+          "package_key": "similar-2.7.0",
+          "kind": "normal",
+          "features": [
+            "inline"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "snapbox_macros",
+          "package_key": "snapbox-macros-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anstream",
+          "package_key": "anstream-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "anstyle",
+          "package_key": "anstyle-1.0.14",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "normalize_line_endings",
+          "package_key": "normalize-line-endings-0.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "similar",
+          "package_key": "similar-2.7.0",
+          "kind": "normal",
+          "features": [
+            "inline"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "snapbox_macros",
+          "package_key": "snapbox-macros-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "normalize-line-endings": [
+          {
+            "version": "0.3.0",
+            "rename": "normalize_line_endings"
+          }
+        ],
+        "snapbox-macros": [
+          {
+            "version": "1.1.0",
+            "rename": "snapbox_macros"
+          }
+        ]
+      }
+    },
+    "snapbox-macros-1.1.0": {
+      "name": "snapbox-macros",
+      "version": "1.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/snapbox-macros/1.1.0/download",
+        "sha256": "ed4a172e483585ebbc7c7f7d1705ca7e3f94f606ed78caa14805673189fd5455",
+        "name_with_ext": "snapbox-macros-1.1.0.tar.gz"
+      },
+      "features": [
+        "color",
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "snapbox_macros",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "anstream",
+          "package_key": "anstream-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "anstream",
+          "package_key": "anstream-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "syn-2.0.117": {
+      "name": "syn",
+      "version": "2.0.117",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/syn/2.0.117/download",
+        "sha256": "e665b8803e7b1d2a727f4023456bbbbe74da67099c585258af0ad9c5013b9b99",
+        "name_with_ext": "syn-2.0.117.tar.gz"
+      },
+      "features": [
+        "clone-impls",
+        "default",
+        "derive",
+        "full",
+        "parsing",
+        "printing",
+        "proc-macro"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "syn",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "proc_macro2",
+          "package_key": "proc-macro2-1.0.106",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "quote",
+          "package_key": "quote-1.0.45",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "unicode_ident",
+          "package_key": "unicode-ident-1.0.24",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "proc-macro2": [
+          {
+            "version": "1.0.106",
+            "rename": "proc_macro2"
+          }
+        ],
+        "unicode-ident": [
+          {
+            "version": "1.0.24",
+            "rename": "unicode_ident"
+          }
+        ]
+      }
+    },
+    "tempfile-3.27.0": {
+      "name": "tempfile",
+      "version": "3.27.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/tempfile/3.27.0/download",
+        "sha256": "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd",
+        "name_with_ext": "tempfile-3.27.0.tar.gz"
+      },
+      "features": [
+        "default",
+        "getrandom"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "tempfile",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "fastrand",
+          "package_key": "fastrand-2.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "getrandom",
+          "package_key": "getrandom-0.4.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(any(unix, windows, target_os = \"wasi\"))"
+        },
+        {
+          "name": "once_cell",
+          "package_key": "once_cell-1.21.4",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rustix",
+          "package_key": "rustix-1.1.4",
+          "kind": "normal",
+          "features": [
+            "fs"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(any(unix, target_os = \"wasi\"))"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "fastrand",
+          "package_key": "fastrand-2.3.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "getrandom",
+          "package_key": "getrandom-0.4.2",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": "cfg(any(unix, windows, target_os = \"wasi\"))"
+        },
+        {
+          "name": "once_cell",
+          "package_key": "once_cell-1.21.4",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "rustix",
+          "package_key": "rustix-1.1.4",
+          "kind": "normal",
+          "features": [
+            "fs"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(any(unix, target_os = \"wasi\"))"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "terminal_size-0.4.3": {
+      "name": "terminal_size",
+      "version": "0.4.3",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/terminal_size/0.4.3/download",
+        "sha256": "60b8cb979cb11c32ce1603f8137b22262a9d131aaa5c37b5678025f22b8becd0",
+        "name_with_ext": "terminal_size-0.4.3.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "terminal_size",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "rustix",
+          "package_key": "rustix-1.1.4",
+          "kind": "normal",
+          "features": [
+            "termios"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "rustix",
+          "package_key": "rustix-1.1.4",
+          "kind": "normal",
+          "features": [
+            "termios"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml-0.5.11": {
+      "name": "toml",
+      "version": "0.5.11",
+      "edition": "2018",
+      "source": {
+        "kind": "path",
+        "relative_path": "/Users/drzzln/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/toml-0.5.11"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml-1.1.2+spec-1.1.0": {
+      "name": "toml",
+      "version": "1.1.2+spec-1.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/toml"
+      },
+      "features": [
+        "default",
+        "display",
+        "parse",
+        "preserve_order",
+        "serde",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "indexmap",
+          "package_key": "indexmap-2.14.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "serde_spanned",
+          "package_key": "serde_spanned-1.1.1",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_datetime",
+          "package_key": "toml_datetime-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_parser",
+          "package_key": "toml_parser-1.1.2+spec-1.1.0",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_writer",
+          "package_key": "toml_writer-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "winnow",
+          "package_key": "winnow-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "indexmap",
+          "package_key": "indexmap-2.14.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "serde_spanned",
+          "package_key": "serde_spanned-1.1.1",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_datetime",
+          "package_key": "toml_datetime-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_parser",
+          "package_key": "toml_parser-1.1.2+spec-1.1.0",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_writer",
+          "package_key": "toml_writer-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [
+            "alloc"
+          ],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "winnow",
+          "package_key": "winnow-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml-test-2.1.0": {
+      "name": "toml-test",
+      "version": "2.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/toml-test/2.1.0/download",
+        "sha256": "3ce4e08cfbb71beaafa49d32de7e7a158f650d116e95d6737fbe5bb925bf599a",
+        "name_with_ext": "toml-test-2.1.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_test",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "chrono",
+          "package_key": "chrono-0.4.44",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "ryu",
+          "package_key": "ryu-1.0.23",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [
+            "derive"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_json",
+          "package_key": "serde_json-1.0.149",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "chrono",
+          "package_key": "chrono-0.4.44",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "ryu",
+          "package_key": "ryu-1.0.23",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [
+            "derive"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_json",
+          "package_key": "serde_json-1.0.149",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml-test-data-2.8.0": {
+      "name": "toml-test-data",
+      "version": "2.8.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/toml-test-data/2.8.0/download",
+        "sha256": "f5b8e73b388f6d379a47af9b56f67e54b8d43ae5056ecb2166d7ac2781c4352e",
+        "name_with_ext": "toml-test-data-2.8.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_test_data",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "include_dir",
+          "package_key": "include_dir-0.7.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "include_dir",
+          "package_key": "include_dir-0.7.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml-test-harness-1.8.0": {
+      "name": "toml-test-harness",
+      "version": "1.8.0",
+      "edition": "2024",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/toml-test-harness/1.8.0/download",
+        "sha256": "7a773d1b106291a5df7fb9c00f75a43cae18bacf0a06e483d168af79f70ea827",
+        "name_with_ext": "toml-test-harness-1.8.0.tar.gz"
+      },
+      "features": [
+        "snapshot"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_test_harness",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "ignore",
+          "package_key": "ignore-0.4.25",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest2_mimic",
+          "package_key": "libtest2-mimic-0.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "snapbox",
+          "package_key": "snapbox-1.2.1",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_test",
+          "package_key": "toml-test-2.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_test_data",
+          "package_key": "toml-test-data-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "ignore",
+          "package_key": "ignore-0.4.25",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "libtest2_mimic",
+          "package_key": "libtest2-mimic-0.0.4",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "snapbox",
+          "package_key": "snapbox-1.2.1",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_test",
+          "package_key": "toml-test-2.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_test_data",
+          "package_key": "toml-test-data-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "libtest2-mimic": [
+          {
+            "version": "0.0.4",
+            "rename": "libtest2_mimic"
+          }
+        ],
+        "toml-test": [
+          {
+            "version": "2.1.0",
+            "rename": "toml_test"
+          }
+        ],
+        "toml-test-data": [
+          {
+            "version": "2.8.0",
+            "rename": "toml_test_data"
+          }
+        ]
+      }
+    },
+    "toml_benchmarks-0.0.0": {
+      "name": "toml_benchmarks",
+      "version": "0.0.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/benchmarks"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_benchmarks",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [
+            "derive"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "serde",
+          "package_key": "serde-1.0.228",
+          "kind": "normal",
+          "features": [
+            "derive"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml_datetime-1.1.1+spec-1.1.0": {
+      "name": "toml_datetime",
+      "version": "1.1.1+spec-1.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/toml_datetime"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "serde",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_datetime",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml_edit-0.25.11+spec-1.1.0": {
+      "name": "toml_edit",
+      "version": "0.25.11+spec-1.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/toml_edit"
+      },
+      "features": [
+        "default",
+        "display",
+        "parse",
+        "serde"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_edit",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "indexmap",
+          "package_key": "indexmap-2.14.0",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "serde_spanned",
+          "package_key": "serde_spanned-1.1.1",
+          "kind": "normal",
+          "features": [
+            "serde"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_datetime",
+          "package_key": "toml_datetime-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_parser",
+          "package_key": "toml_parser-1.1.2+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_writer",
+          "package_key": "toml_writer-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "winnow",
+          "package_key": "winnow-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "indexmap",
+          "package_key": "indexmap-2.14.0",
+          "kind": "normal",
+          "features": [
+            "std"
+          ],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "serde_core",
+          "package_key": "serde_core-1.0.228",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "serde_spanned",
+          "package_key": "serde_spanned-1.1.1",
+          "kind": "normal",
+          "features": [
+            "serde"
+          ],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_datetime",
+          "package_key": "toml_datetime-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_parser",
+          "package_key": "toml_parser-1.1.2+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "toml_writer",
+          "package_key": "toml_writer-1.1.1+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        },
+        {
+          "name": "winnow",
+          "package_key": "winnow-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml_edit_fuzz-0.0.0": {
+      "name": "toml_edit_fuzz",
+      "version": "0.0.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/toml_edit_fuzz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [
+        {
+          "name": "parse_document",
+          "path": "parse_document.rs"
+        }
+      ],
+      "lib_target": null,
+      "dependencies": [
+        {
+          "name": "libfuzzer_sys",
+          "package_key": "libfuzzer-sys-0.4.12",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_edit",
+          "package_key": "toml_edit-0.25.11+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "libfuzzer_sys",
+          "package_key": "libfuzzer-sys-0.4.12",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        },
+        {
+          "name": "toml_edit",
+          "package_key": "toml_edit-0.25.11+spec-1.1.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "libfuzzer-sys": [
+          {
+            "version": "0.4.12",
+            "rename": "libfuzzer_sys"
+          }
+        ]
+      }
+    },
+    "toml_parser-1.1.2+spec-1.1.0": {
+      "name": "toml_parser",
+      "version": "1.1.2+spec-1.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/toml_parser"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_parser",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "winnow",
+          "package_key": "winnow-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "winnow",
+          "package_key": "winnow-1.0.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "toml_writer-1.1.1+spec-1.1.0": {
+      "name": "toml_writer",
+      "version": "1.1.1+spec-1.1.0",
+      "edition": "2024",
+      "source": {
+        "kind": "path",
+        "relative_path": "crates/toml_writer"
+      },
+      "features": [
+        "alloc",
+        "default",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "toml_writer",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "typeid-1.0.3": {
+      "name": "typeid",
+      "version": "1.0.3",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/typeid/1.0.3/download",
+        "sha256": "bc7d623258602320d5c55d1bc22793b57daff0ec7efc270ea7d55ce1d5f5471c",
+        "name_with_ext": "typeid-1.0.3.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "typeid",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "unarray-0.1.4": {
+      "name": "unarray",
+      "version": "0.1.4",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/unarray/0.1.4/download",
+        "sha256": "eaea85b334db583fe3274d12b4cd1880032beab409c0d774be044d4480ab9a94",
+        "name_with_ext": "unarray-0.1.4.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "unarray",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "unicode-ident-1.0.24": {
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/unicode-ident/1.0.24/download",
+        "sha256": "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75",
+        "name_with_ext": "unicode-ident-1.0.24.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "unicode_ident",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "utf8parse-0.2.2": {
+      "name": "utf8parse",
+      "version": "0.2.2",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/utf8parse/0.2.2/download",
+        "sha256": "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821",
+        "name_with_ext": "utf8parse-0.2.2.tar.gz"
+      },
+      "features": [
+        "default"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "utf8parse",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "wait-timeout-0.2.1": {
+      "name": "wait-timeout",
+      "version": "0.2.1",
+      "edition": "2015",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/wait-timeout/0.2.1/download",
+        "sha256": "09ac3b126d3914f9849036f826e054cbabdc8519970b8998ddaf3b5bd3c65f11",
+        "name_with_ext": "wait-timeout-0.2.1.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [
+        {
+          "name": "exit",
+          "path": "src/bin/exit.rs"
+        },
+        {
+          "name": "reader",
+          "path": "src/bin/reader.rs"
+        },
+        {
+          "name": "sleep",
+          "path": "src/bin/sleep.rs"
+        }
+      ],
+      "lib_target": {
+        "name": "wait_timeout",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.183",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(unix)"
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "walkdir-2.5.0": {
+      "name": "walkdir",
+      "version": "2.5.0",
+      "edition": "2018",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/walkdir/2.5.0/download",
+        "sha256": "29790946404f91d9c5d06f9874efddea1dc06c5efe94541a7d6863108e3a5e4b",
+        "name_with_ext": "walkdir-2.5.0.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "walkdir",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "same_file",
+          "package_key": "same-file-1.0.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "same_file",
+          "package_key": "same-file-1.0.6",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {
+        "same-file": [
+          {
+            "version": "1.0.6",
+            "rename": "same_file"
+          }
+        ]
+      }
+    },
+    "winnow-1.0.0": {
+      "name": "winnow",
+      "version": "1.0.0",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/winnow/1.0.0/download",
+        "sha256": "a90e88e4667264a994d34e6d1ab2d26d398dcdca8b7f52bec8668957517fc7d8",
+        "name_with_ext": "winnow-1.0.0.tar.gz"
+      },
+      "features": [
+        "alloc",
+        "ascii",
+        "binary",
+        "default",
+        "parser",
+        "std"
+      ],
+      "proc_macro": false,
+      "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "winnow",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "runtime_dependencies": [
+        {
+          "name": "memchr",
+          "package_key": "memchr-2.8.0",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": true,
+          "target": null
+        }
+      ],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "zerocopy-0.8.42": {
+      "name": "zerocopy",
+      "version": "0.8.42",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/zerocopy/0.8.42/download",
+        "sha256": "f2578b716f8a7a858b7f02d5bd870c14bf4ddbbcf3a4c05414ba6503640505e3",
+        "name_with_ext": "zerocopy-0.8.42.tar.gz"
+      },
+      "features": [
+        "simd"
+      ],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "zerocopy",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    },
+    "zmij-1.0.21": {
+      "name": "zmij",
+      "version": "1.0.21",
+      "edition": "2021",
+      "source": {
+        "kind": "registry",
+        "url": "https://crates.io/api/v1/crates/zmij/1.0.21/download",
+        "sha256": "b8848ee67ecc8aedbaf3e4122217aff892639231befc6a1b58d29fff4c2cabaa",
+        "name_with_ext": "zmij-1.0.21.tar.gz"
+      },
+      "features": [],
+      "proc_macro": false,
+      "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "zmij",
+        "path": "src/lib.rs"
+      },
+      "dependencies": [],
+      "runtime_dependencies": [],
+      "build_dependencies": [],
+      "crate_renames": {}
+    }
+  },
+  "root_crate": "toml_benchmarks-0.0.0",
+  "workspace_members": [
+    "toml_benchmarks-0.0.0",
+    "serde_spanned-1.1.1",
+    "toml-0.5.11",
+    "toml_datetime-1.1.1+spec-1.1.0",
+    "toml_parser-1.1.2+spec-1.1.0",
+    "toml_writer-1.1.1+spec-1.1.0",
+    "toml_edit-0.25.11+spec-1.1.0",
+    "serde_toml-0.0.1",
+    "toml_edit_fuzz-0.0.0"
+  ],
+  "flake_metadata": {
+    "toml_benchmarks": {
+      "default_bin": null,
+      "repo": null
+    },
+    "serde_spanned": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "toml": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "toml_datetime": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "toml_parser": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "toml_writer": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "toml_edit": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "serde_toml": {
+      "default_bin": null,
+      "repo": "toml-rs/toml"
+    },
+    "toml_edit_fuzz": {
+      "default_bin": "parse_document",
+      "repo": null
+    }
+  }
+}
